@@ -1,0 +1,57 @@
+h1 {
+    background-color: aquamarine;
+}
+
+p {
+    background-color: yellow;
+}
+
+div {
+    background-color: antiquewhite;
+}
+
+img {
+    background-color: red;
+}
+
+span {
+    background-color: violet;
+    font-size: 12px;
+}
+
+.block {
+    display: block;
+    background-color: blue;
+    width: 15vw;
+    height: 20vh;
+    margin: 10px;
+    padding: 5px;
+}
+
+.line {
+    display: inline;
+}
+
+#container {
+    display: block;
+    margin: 20px;
+    height: 350px;
+    line-height: 310px;
+}
+
+#p-block {
+    display: inline-block; /* Вертикальное выравнивание применяется только к элементам, которые имеют режим отображения inline или inline-block. */
+    vertical-align: middle;
+}
+
+#a-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#img-block {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    vertical-align: middle;
+}
